@@ -96,6 +96,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: AppBackground(
+        backgroundImage: 'assets/images/login_background.jpg',
+        useGradientOverlay: true, // Mantiene un overlay suave para legibilidad del texto
         child: SafeArea(
           child: Center(
             child: SingleChildScrollView(
